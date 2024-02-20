@@ -4,7 +4,7 @@ public class GroceryCashierProgram {
     public static void main(String[] args) {
 
 
-        double a, e, d, m, p;
+        double a, e, d, m, p, x, y, z, w, i, total;
 
         //define Scanner
         Scanner doa=new Scanner(System.in);
@@ -26,10 +26,14 @@ public class GroceryCashierProgram {
         p= doa.nextDouble();
 
         //Define value in TL per unit
-        double x=a*2.14, y=e*3.67, z=d*1.11, w=m*0.95, i=p*5.00;
+        x=a*2.14;
+        y=e*3.67;
+        z=d*1.11;
+        w=m*0.95;
+        i=p*5.00;
 
         //Total price calculation
-        double total = x+y+z+w+i;
+        total = x+y+z+w+i;
 
         System.out.println("Toplam Tutar :" +total + " TL");
 
